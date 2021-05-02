@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>MyQAGenerator.ai</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="120x120" href="{{ url_for('static', filename='assets/img/favicon/apple-touch-icon.png') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='assets/img/favicon/favicon-32x32.png') }}">
+<link rel="icon" type="image/png" sizes="16x16"  href="{{ url_for('static', filename='assets/img/favicon/favicon-16x16.png') }}">
+<link rel="manifest" href="{{ url_for('static', filename='assets/img/favicon/site.webmanifest') }}">
+<link rel="mask-icon" color="#ffffff"  href="{{ url_for('static', filename='static/assets/img/favicon/safari-pinned-tab.svg') }}">
+
+<!-- Fontawesome -->
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='vendor/@fortawesome/fontawesome-free/css/all.min.css') }}">
+
+<!-- Pixel CSS -->
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/pixel.css') }}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.print.min.js"></script>
+
+{% block head %}{% endblock %}
+  </head>
+  <body>
+    <br>
+    <center><h1>MyQAGenerator.ai</h1></center>
+      <div class="container">
+      {% block body %}{% endblock %}
+      </div>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- Core -->
+<script src="{{ url_for('static', filename='vendor/popper.js/dist/umd/popper.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/headroom.js/dist/headroom.min.js') }}"></script>
+
+<!-- Vendor JS -->
+<script src="{{ url_for('static', filename='vendor/onscreen/dist/on-screen.umd.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/nouislider/distribute/nouislider.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/waypoints/lib/jquery.waypoints.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/jarallax/dist/jarallax.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/jquery.counterup/jquery.counterup.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/jquery-countdown/dist/jquery.countdown.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/prismjs/prism.js') }}"></script>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- pixel JS -->
+<script src="{{ url_for('static', filename='assets/js/pixel.js') }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <footer id="sticky-footer" class="py-4">
+  <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
+                <p class="font-weight-bold font-medium mb-0">Copyright © MyQAGenerator.ai
+                    <span class="current-year"><script>document.write(new Date().getFullYear())</script>
+                    </span>. All rights reserved.</p>
+  </div><br>
+  <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
+        <p class="font-weight-bold font-small mb-0"><span><a href="https://www.narenderkeswani.com/">Made with &#128151 By NARENDER KESWANI</a></span></p>
+</div>
+</footer>
+</body>
+</html>
