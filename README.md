@@ -23,6 +23,23 @@ This module will help to user to download the questions & answers in different f
 
 # FLOW CHART/ ACTIVITY DIAGRAM:
 
-# Screenshots of SYSTEM:
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image2.png)
 
+# CLASS DIAGRAM:
 
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image6.png)
+
+# USE CASE DIAGRAM:
+
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image7.png)
+
+# SCREENSHOTS OF THE SYSTEM:
+
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image9.png)
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image10.png)
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image11.png)
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image12.png)
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image13.png)
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image14.png)
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image15.png)
+![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image16.png)
